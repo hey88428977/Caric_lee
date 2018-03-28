@@ -1,4 +1,4 @@
-#coding=utf-8
+﻿#coding=utf-8
 '''
 '''
 import unittest
@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     # 生成报告
     import HTMLTestRunner_jpg
-    report_path = "D:/s15/report/result.html"
+    report_path = "D:/github\sele_auto_web/report/result.html"
 
     fp =open(report_path, "wb")
     runner = HTMLTestRunner_jpg.HTMLTestRunner(
