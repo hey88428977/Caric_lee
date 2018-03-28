@@ -5,7 +5,7 @@ import unittest
 def all_case():
     '''加载所有的测试用例'''
     # 待执行用例的目录
-    case_dir = "D:/s15/case"
+    case_dir = "D:/github/sele_auto_web/case"
 
     testcase = unittest.TestSuite()
     discover = unittest.defaultTestLoader.discover(case_dir,
@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     # 生成报告
     import HTMLTestRunner_jpg
-    report_path = "D:/github\sele_auto_web/report/result.html"
+    report_path = "D:/github/sele_auto_web/report/result.html"
 
     fp =open(report_path, "wb")
     runner = HTMLTestRunner_jpg.HTMLTestRunner(
